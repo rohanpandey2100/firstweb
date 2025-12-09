@@ -130,3 +130,20 @@ a {
     object-fit: cover;
     border: 5px solid #7cf03d;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 80px 9%;
+    min-height: 100vh;
+}
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.section p {
+    max-width: 600px;
+    line-height: 1.6;
+}
